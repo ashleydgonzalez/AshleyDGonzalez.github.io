@@ -1,0 +1,97 @@
+/* --- General Styles --- */
+
+body {
+  margin: 0;
+  font-family:Helvetica, Arial, sans-serif;
+  background:Snow;
+}
+
+header {
+  height: 125px;
+  background-color:RosyBrown;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 45px;
+  color:black;
+  text-align: center;
+  letter-spacing: -2;
+  margin: 3;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+  font-family: cursive;
+  color:black;
+  margin:1;
+  font-size:17px;
+  text-align: center;
+}
+
+footer {
+  background-color:RosyBrown;
+}
+
+article {
+  padding: 0 15%;
+  margin: 70px 0;
+}
+
+/* --- Type --- */
+
+h1, h2, h3 {
+  font-family: cursive;
+  color:DarkSalmon;
+  text-align: center;
+  font-weight: 300;
+}
+
+h1 { font-size: 25px; }
+h2 { font-size: 25px; }
+h3 { font-size: 25px; }
+
+p, li {
+  font-family: 'sans-serif', cursive;
+  line-height: 1.0em;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+a:link { color: DarkRed; }
+a:visited { color: DarkRed; }
+a:hover { color: IndianRed; }
+a:active { color: IndianRed; }
+a:hover {
+  text-decoration: underline;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+  color:black;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+/* --- Image Elements --- */
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid RosyBrown;
+}
+
+/* ---- Modify Styles ---- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid DarkGray;
+}
