@@ -1,38 +1,50 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Very important and always at the top of the HTML file because we use HTML5 here -->
 <html>
-
+<!-- Beginning of HTML5 -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ashley Gonzalez | Software Engineer | Portfolio</title>
+  <!-- Added name and title for the head of the web page -->
+  <title>Ashley Gonzalez | Software Engineer | Portfolio</title> 
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
   <header>
+<!-- Kept header simple with name and title -->
     <div class="logo">Ashley Gonzalez</div>
     <h2>Software Engineer</h2>
   </header>
 
   <main>
+<!-- Beginning of main body with different article containers to make the transition easy to read and to show how it is organized -->
 
     <!---Intro-->
     <article>
+<!-- Used article container to group introduction content with picture for a clean web page look -->
       <img src="vrocks.jpg">
+<!-- Linked image here to not only add personality, but so my web page can look more friendly -->
       <h1>Hi everyone, I'm Ashley</h1>
+<!-- Used h1 since this header is the most important -->
       <p>I am a Software Engineering student living in California.</p>
       <p>As a former Clinical Research Coordinator, I enjoy working with others and the importance of team collaboration as well as making sure web pages are up to date with important information. </p>
       <p>Some of my other interests include:</p>
         <ul>
-          <li>Spending time outside</li>
+<!-- Used unorganized lists since there is no particular order to the two list items-->
+          <li>Spending time outside,</li>
           <li>And doing anything creative, from knitting to creating web pages!</li>
         </ul>
     </article>
+    
+    <hr>
 
     <!--About Me-->
     <article>
+<!-- Used article container to group About Me section container so it's easier to read -->
       <h2 class="bordertop">About Ashley</h2>
+<!-- Used h2 since this header is still important, but not as important as h1 -->
+<!-- Used paragraphs to give a brief description of my life after college and how I ended up where I am today and my why -->
         <p>After graduating college in the Bay Area, I held several jobs in the psychology field, before ultimately spending a few years in Clinical Research. After some time, I wanted to do more in developing informational web sites to direct people to life changing studies to deliver the best care.</p>
       
       <p>As a student at Thinkful, I have started my journey to become a Software Engineer to develop the skills needed to deliver these sites that people can easily access, and I am so excited!</p>
@@ -41,10 +53,13 @@
     </article>
 
       <!--Contact Info-->
+<!-- Used article container since we are headed in a different topic of the web page, give a nice break on the web page, makes it easier on the eyes. -->
       <article id="contact">
         <h2 class="border-top">Contact Ashley</h2>
+<!-- h2 header since this information is key to reach me -->
         <p>Please reach out to me via LinkedIn or GitHub!:</p>
         <ol>
+<!-- Used organized lists because I want my LinkedIn to be first on these line items, GitHub is secondary, used anchor link to link to LinkedIn and GitHub-->
           <li>
             <a
               href="https://www.linkedin.com/in/ashley-gonzalez-6aa430241/">LinkedIn</a>
@@ -56,12 +71,17 @@
         </ol>
       </article>
     </main>
+<!-- Used hypertext reference and absolute link paths since we want users to be directed to my GitHub and LinkedIn -->
 
   <footer>
+<!-- Wanted to keep the footer simple with my name -->
     <p>Ashley Gonzalez</p>
   </footer>
   
+<!-- JavaScript code here so the page loads faster -->
   <script src="script.js"></script>
 </body>
+<!-- End of the body of the web page -->
 
 </html>
+<!-- End of the HTML -->
