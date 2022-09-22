@@ -1,16 +1,19 @@
 /* --- General Styles --- */
-
+/* For the body, I chose Helvetica font with a snow background to make it stand out. */
+/* Added back up fonts in case a device can't load the first one */
 body {
   margin: 0;
   font-family:Helvetica, Arial, sans-serif;
   background:Snow;
 }
 
+/* My header with a 125px height and RosyBrown background color */
 header {
   height: 125px;
   background-color:RosyBrown;
 }
 
+/* Styling for ,logo element: Ashley Gonzalez | Software Engineer in cursive with 45 px black font and center alignment. Padding at 20px to make it centered. */
 .logo {
   font-family: cursive;
   font-size: 45px;
@@ -21,6 +24,7 @@ header {
   padding: 20px 0 0 0;
 }
 
+/* Styling for header 2 in black cursive with centered text-align. Font-size 17px with margin at 1 for proper spacing around the header element. */
 header h2 {
   font-family: cursive;
   color:black;
@@ -29,17 +33,19 @@ header h2 {
   text-align: center;
 }
 
+/* Chose RosyBrown to make it consistent with the header. */
 footer {
   background-color:RosyBrown;
 }
 
+/* Styled the article with padding at 0 and margin at 70px to make it centered. */
 article {
   padding: 0 15%;
   margin: 70px 0;
 }
 
 /* --- Type --- */
-
+/* Nested the header elements to make them all the same style in font, color, alignment and weight. */
 h1, h2, h3 {
   font-family: cursive;
   color:DarkSalmon;
@@ -47,16 +53,19 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+/* Nested the header elements for consistent font-size. */
 h1 { font-size: 25px; }
 h2 { font-size: 25px; }
 h3 { font-size: 25px; }
 
+/* Nested the paragraph and line item with sans-serif and cursive as a back up font with the same line-height and margin-bottom for consistency. */
 p, li {
   font-family: 'sans-serif', cursive;
   line-height: 1.0em;
   margin-bottom: 0;
 }
 
+/* Stlyed the anchor with an easy to read font-weight and applied zero text decoration. Applied similar yet different colors to indicate user activity.*/
 a {
   font-weight: 700;
   text-decoration: none;
@@ -69,11 +78,13 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Emphasized text with bold and normal font-style. */
 em {
   font-weight: bold;
   font-style: normal;
 }
 
+/* Centered my name and kept it small yet noticeable with a black color, 25px padding and 0 margin, */
 footer p {
   color:black;
   text-align: center;
@@ -82,7 +93,7 @@ footer p {
 }
 
 /* --- Image Elements --- */
-
+/* Kept width at 100% for a round rectangle and Rosy Brown border for consistency. */
 img {
   width: 100%;
   border-radius: 10px;
@@ -90,7 +101,7 @@ img {
 }
 
 /* ---- Modify Styles ---- */
-
+/* .border-top padding at 80px and 2px border-top */
 .border-top {
   padding-top: 80px;
   border-top: 2px solid DarkGray;
